@@ -1,0 +1,1 @@
+$(window).on("scroll", function() { $("body").css("background-position", "0px " + $(window).scrollTop() * 0.3 + "px"); });
