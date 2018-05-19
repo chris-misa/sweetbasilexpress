@@ -24,6 +24,37 @@ a img {
 	border: none;
 }
 
+
+/*
+ *
+ ***** MISC STYLES
+ *
+ */
+.banner {
+  font-family: Verdana, sans-serif;
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+	color: #f21600;
+  padding: 0 0.5em 0.5em;
+  vertical-align: middle;
+}
+
+.banner a {
+  display: inline-block;
+	/*color: #f21600;*/
+  color: #ea3893;
+}
+
+.banner a span {
+  vertical-align: middle;
+}
+
+.banner a img {
+  vertical-align: top;
+  display: inline-block;
+}
+
 /*
  *
  ***** HEADER STYLES
