@@ -160,14 +160,15 @@ footer {
 }
 
 footer .social_links {
-	margin: 0 0 1em;
+	margin: 0 0 0.5em;
 	padding: 0;
 }
 
 footer .social_links a {
 	border-radius: 5px;
 	display: inline-block;
-	margin: 0.5em 3%;
+	margin: 0 3%;
+  padding: 0;
 }
 
 footer .credits {
@@ -175,18 +176,20 @@ footer .credits {
 	text-align: center;
 	text-shadow: 0px 0px 1px #46463e;
 	margin: 0;
-	padding: 0.5em 1em;
+	padding: 0 1em;
 }
 
 footer .credits div {
+  display: block;
 	margin: 0;
-	padding: 0.5em;
+	padding: 0.5em 0;
 }
+
 
 footer #copy {
 	font-size: 0.8em;
 	margin: 0;
-	padding: 1em;
+	padding: 0.5em 0.5em 0;
 }
 
 footer a {
@@ -202,7 +205,7 @@ footer a:hover {
 @media screen and (min-width: 640px) {
 	footer .credits div {
 		display: inline-block;
-		padding: 0.5em 5% 2em; 
+		padding: 0.5em 5% 0.5em; 
 	}
 }
 
