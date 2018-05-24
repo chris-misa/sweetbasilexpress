@@ -1,0 +1,7 @@
+New work can be done locally on the newfeatures branch.
+
+To make changes live, run
+
+local $ git push
+
+server $ git merge newfeatures
